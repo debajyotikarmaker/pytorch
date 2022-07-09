@@ -1,0 +1,24 @@
+name: pytorch1.11
+ 
+dependencies:
+    - pip>=19.0
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - numpy
+    - pip:
+        - bayesian-optimization
+        - gym
+        - kaggle
+        - opencv-python
+        - jupyter_contrib_nbextensions
